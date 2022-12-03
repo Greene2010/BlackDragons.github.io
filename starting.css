@@ -1,0 +1,209 @@
+body{
+    background-color: #ffffff;
+    margin: 0px;
+    padding:0px;
+  }
+
+  .navigation .nav-link:hover  {
+    color: purple;
+  }
+
+  .navigation .logo:hover {
+    color: gray;
+  }
+  .navigation{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    left: 0px;
+    overflow-y: auto;
+    padding:30px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+  }
+  ul{
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+  .navigation a{
+    color: gray;
+    display: inline-block;
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+
+  a.logo{
+    color: purple;
+    font-family: 'Holtwood One SC',sans-serif;
+    font-size: 24px;
+    padding: 0px 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+    a.logo:hover {
+        color: white;
+        font-size: 26px;
+        transition: all 0.10s ease-out;
+        
+    }
+  .banner{
+    background-image: url("https://wallpaperaccess.com/full/393079.jpg");
+    background-position: center top;
+    background-size: cover;
+    border-bottom: 5px solid purple;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    width: 100%;
+  }
+  .banner-text{
+    position: relative;
+    top: 200px;
+  }
+  h1{
+    color: silver;
+    font-family: 'Russo One',sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -1px 0px 0px black,
+    1px 0px 0px black,
+    0px -1px 0px black,
+    0px 1px 0px black;color: gray;
+  }
+  h2{
+    color: purple;
+    font-family: 'Black Ops One',sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .banner h2{
+    font-size: 120px;
+    margin: -40px 0px 80px 0px;
+  }
+  .content{
+    background-image: url('https://cdn.pixabay.com/photo/2020/03/08/17/12/dragon-4913063_1280.jpg');
+    background-position: center top;
+    background-size: cover;
+    border-bottom: 8px solid purple;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 80px 0px;
+    position: relative;
+    text-align: center;
+    text-shadow:
+-1px 0px 0px black,
+1px 0px 0px black,
+0px -1px 0px black,
+0px 1px 0px black;color: purple;
+  }
+  p{
+    color: white;
+    font-family: 'Holtwood One SC',sans-serif;
+    font-size: 15px;
+    line-height: 42px;
+    text-align: left;
+  }
+  .description{
+    display: inline-block;
+    width: 70%;
+    color: purple;
+    font-family: 'Russo One',sans-serif;
+  }
+  .description a {
+    cursor: pointer;
+  }
+  .activities-panel{
+    margin-bottom: 40px;
+    padding: 80px 0px;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .activities-panel h2 {
+    width: 100%;
+  }
+  .activity{
+    background-color: purple;
+    box-sizing: border-box;
+    width: 240px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Russo One',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.10s ease-out;
+  }
+
+  .activity:hover{
+    background-color: silver;
+    transition: all 0.10s ease-out;
+    width: 250px;
+    height: 210px;
+    font-size: 25px;
+    margin: 7px;
+  }
+  .footer h2{
+    color: #ffffff;
+    font-family: 'Holtwood One SC',sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+
+  .content h3 {
+    font-family: 'Holtwood One SC';
+    font-size: 65px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  
+  a {
+    cursor: default;
+    text-decoration-line: none;
+  }
+
+  .btn {
+    color: white;
+    background-color: black;
+    border-radius: 80px;
+    font-family: 'Russo One',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.60s ease-out;
+  }
+
+  .btn:hover {
+    background-image: url("https://media.tenor.com/PEDzvMlrdi0AAAAM/fire.gif");
+    transition: all 0.10s ease-out;
+    font-size: 18px;
+  }
